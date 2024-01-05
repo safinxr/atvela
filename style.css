@@ -905,7 +905,6 @@ body {
 /*-- -------------------------- -->
 <---         Search Results           -->
 <--- -------------------------- -*/
-
 #search-ranking {
     max-width: 80rem;
     margin: 100px auto;
@@ -918,11 +917,69 @@ body {
 
 
 .sr-grid-div {
-    margin-top: 30px;
+    margin-top: 40px;
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    text-align: start;
 
 }
+
+.sr-card {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 15px;
+    padding: 0 20px;
+    transition: transform 0.3s ease;
+}
+
+
+.sr-card:hover {
+    /* transform: scale(1.1); */
+    transform: scale(1.03);
+}
+
+.sr-card h4 {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.sr-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 16px;
+}
+@media only screen and (max-width:576px){
+    .sr-grid-div {
+            margin-top: 20px;
+            grid-template-columns: repeat(1, 1fr);
+    
+    
+        }
+    .sr-card img{
+        width: 26px;
+    }    
+    .sr-card h4{
+        font-size: 16px;
+    }
+    .sr-card p {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width:577px) and (max-width: 1023px){
+    .sr-grid-div {
+            margin-top: 30px;
+            grid-template-columns: repeat(1, 1fr);
+         
+    
+        }
+}
+
+@media only screen and (min-width:1024px){
+
+}
+
 
 
 /*-- -------------------------- -->
