@@ -1,0 +1,17 @@
+<!-- ============================================ -->
+<!--                     CTA                      -->
+<!-- ============================================ -->
+
+<section id="cta-51">
+    <div class="cs-container">
+        <div class="cs-content">
+            <h2 class="cs-title" style="color: white;">Get In Touch With Atvela Now!</h2>
+            <p class="cs-text" style="color: white;">
+              Click the button below to schedule a 30-minute call with our team.
+            </p>
+            <a href="https://calendly.com/atvela/30min" class="cs-button-solid">Schedule a Call</a>
+        </div>
+    </div>
+    <!-- Background Image-->
+
+</section>
